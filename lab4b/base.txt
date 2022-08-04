@@ -1,0 +1,10 @@
+#Your create foods table code goes here
+
+# Create a new table called foods with a single column family called fact to store the facts.
+# Enable the table to do compression (GZ) and fast lookups (BLOOMFILTER).
+
+create 'foods', {NAME => 'fact', VERSIONS => 1, BLOOMFILTER => 'ROWCOL'}
+enable 'foods'
+
+#Do not remove the exit call below
+exit

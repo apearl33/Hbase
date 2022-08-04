@@ -1,0 +1,4 @@
+#DO NOT EDIT
+get 'foods','Beef with BBQ sauce'
+get 'foods','Moon pie', {COLUMN => ['fact:Portion_Display_Name', 'fact:Portion_Amount', 'fact:Calories', 'fact:Vegetables']}
+exit
